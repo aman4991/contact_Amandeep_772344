@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "toVisit_Aman_C0772344_android"

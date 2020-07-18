@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Phone Detail "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_email"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Email"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextfirstname"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Firstname"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextlastname"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Last name"
+            android:textStyle="italic"
+
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextphone"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:hint="Enter Phone number"
+            android:textStyle="italic"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextaddress"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Address"
+            android:textStyle="italic"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnaddperson"
+            android:layout_marginTop="10dp"
+            android:background="@color/newcolor"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Add Detail"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvviewperson"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/newcolor"
+            android:text="VIEW LIST"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
